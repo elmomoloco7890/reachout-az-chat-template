@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ReachoutChatApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="temporary_icon">temporary icon</string>
+    <string name="teen_lifeline_btn_txt">Teen Lifeline</string>
+    <string name="crisis_textline_btn_txt">Crisis Textline</string>
+    <string name="teen_info">The Teen Life Line is available on weekdays from 12–9pm and weekends from 3–9pm.</string>
+    <string name="message_icon_accessibility">message icon</string>
+    <string name="enter_message_hint">Enter message</string>
+    <string name="enter_message_crisis_hint">Enter Message</string>
+    <string name="crisis_message_send_icon_access">crisis message send icon</string>
+
+</resources>

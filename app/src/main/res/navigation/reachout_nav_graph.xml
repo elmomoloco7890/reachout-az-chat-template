@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reachout_nav_graph"
+    app:startDestination="@id/chatHomeFragment">
+
+    <fragment
+        android:id="@+id/chatHomeFragment"
+        android:name="ay.artemis.projects.reachoutchatapp.fragments.ChatHomeFragment"
+        android:label="Start a chat"
+        tools:layout="@layout/fragment_chat_home" >
+        <action
+            android:id="@+id/action_chatHomeFragment_to_crisisFragment"
+            app:destination="@id/crisisFragment" />
+        <action
+            android:id="@+id/action_chatHomeFragment_to_teenLifelineFragment"
+            app:destination="@id/teenLifelineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/crisisFragment"
+        android:name="ay.artemis.projects.reachoutchatapp.fragments.CrisisFragment"
+        android:label="Contact Crisis Hotline"
+        tools:layout="@layout/fragment_crisis" />
+    <fragment
+        android:id="@+id/teenLifelineFragment"
+        android:name="ay.artemis.projects.reachoutchatapp.fragments.TeenLifelineFragment"
+        android:label="Contact Teen lifeline"
+        tools:layout="@layout/fragment_teen_lifeline"
+        />
+</navigation>
