@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
-import ay.artemis.projects.reachoutchatapp.R
 import ay.artemis.projects.reachoutchatapp.databinding.FragmentCrisisBinding
 import ay.artemis.projects.reachoutchatapp.model.MessageViewModel
 
@@ -18,6 +17,7 @@ class CrisisFragment : Fragment() {
     private var binding: FragmentCrisisBinding? = null
 
     //adding the sharedviewmodel for the checking and sending messages.
+    //add these later in the final branch
     private val sharedViewModel: MessageViewModel by activityViewModels()
 
     override fun onCreateView(
